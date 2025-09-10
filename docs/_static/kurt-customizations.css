@@ -1,0 +1,26 @@
+
+/* Wider, centered layout for PyData */
+:root {
+  --pst-page-width: 1400px;    /* outer frame */
+  --pst-content-width: 1100px; /* main reading column */
+}
+
+/* Enforce width + centering explicitly */
+.bd-page-width { 
+  max-width: 1400px !important; 
+  margin: 0 auto !important; 
+}
+.bd-content .bd-article-container {
+  max-width: 1100px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Keep media fluid inside the wider column */
+.bd-article-container img,
+.bd-article-container figure,
+.bd-article-container .table-wrapper {
+  max-width: 100%;
+  height: auto;
+}
+
