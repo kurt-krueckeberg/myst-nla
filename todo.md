@@ -7,7 +7,8 @@ documentation to MyST/Sphinx, even if the layout is not yet what I want.
 
 ## Learn PyData Sphinx Theme
 
-From its website. Then adjust the theme so that the article content width can be increased.
+Learn it fomr its [User's Guide](https://pydata-sphinx-theme.readthedocs.io/en/stable/user_guide/install.html). Then
+learn how to adjust the theme.
 
 ## Learn sphinx-design Extension
 
